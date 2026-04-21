@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="hero">
+    <h1>Hello, I'm susmitha 👋</h1>
+    <p>Computer Science Student | Python Developer | Web Development Enthusiast</p>
+    <a href="{{ url_for('contact') }}" class="btn">Hire Me</a>
+</section>
+
+<section class="about">
+    <h2>About Me</h2>
+    <p>
+        I am a dedicated Computer Science student with a strong foundation in Python programming 
+        and web development. I enjoy building responsive and user-friendly web applications 
+        using Flask and continuously improving my technical skills.
+    </p>
+</section>
+
+<section class="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li>🔹 Student Result Management System</li>
+        <li>🔹 Flask Portfolio Website</li>
+        <li>🔹 Python Calculator Application</li>
+    </ul>
+</section>
+{% endblock %}
